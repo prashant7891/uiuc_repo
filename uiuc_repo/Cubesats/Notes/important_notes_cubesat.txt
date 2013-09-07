@@ -1,4 +1,0 @@
-
-Control algorithm must depend on states of other agents
-DS FFG has no state dependent forces
-
