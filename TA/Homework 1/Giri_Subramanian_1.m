@@ -24,8 +24,9 @@ v_parallel = 1;
 rho = (m*v_perp)/(q*B0);
 omega = q*B0/m;
 
-fprintf('The value of radius is %d m and that of the cyclotron frequency is %d rad/s \n', rho,omega);
-t = 0:0.1:10;
+fprintf('The value of radius is %d m and that of the cyclotron frequency is %d rad/s \n' ...
+         ,rho,omega);
+t = 0:0.5:30;
 x = rho*cos(omega*t);
 y = rho*sin(omega*t);
 z = v_parallel*t;
@@ -69,24 +70,38 @@ print -dpng Giri_Subramanian_HW_1_Problem_3.png
 %%  Problem 4
 
 % All values taken here are in ratio to the chord
-airfoil = input('Please enter the 4 digit NACA airfoil number alone: ');
+airfoil = input('Please enter the 4 digit NACA airfoil number alone: ', 's');
 
-if floor(airfoil/10000) ~= 0
-    fprintf('Please input only a 4 digit number \n')
-    return
-end
-t = mod(airfoil,100)/100;
-p = mod(floor(airfoil/100),10)/10;
-m = floor(airfoil/1000)/100;
+% Method given below can be used if digit input is taken
+% if floor(airfoil/10000) ~= 0
+%     fprintf('Please input only a 4 digit number \n')
+%     return
+% end
+% t = mod(airfoil,100)/100;
+% p = mod(floor(airfoil/100),10)/10;
+% m = floor(airfoil/1000)/100;
 
+if length(airfoil) ~= 4
+     fprintf('Please input only a 4 digit number \n')
+     return
+ end
+
+
+t = str2num(airfoil(3:4))/100;
+p = str2num(airfoil(2))/10;
+m = str2num(airfoil(1))/100;
 x = 0:0.001:1;
 
 max_camber_index = find(x==p);
 
-y_camb(1:max_camber_index) = (m/p^2)*(2*p*x(1:max_camber_index) - x(1:max_camber_index).^2);
-y_camb(max_camber_index+1:length(x)) = (m/(1-p)^2)*((1 - 2*p) + 2*p*x(max_camber_index+1:length(x)) - x(max_camber_index+1:length(x)).^2);
+y_camb(1:max_camber_index) = (m/p^2)*(2*p*x(1:max_camber_index) ...
+                                      - x(1:max_camber_index).^2);
+y_camb(max_camber_index+1:length(x)) = (m/(1-p)^2)*((1 - 2*p) ... 
+                                      + 2*p*x(max_camber_index+1:length(x)) ...
+                                      - x(max_camber_index+1:length(x)).^2);
 
-y_thick = (t/0.2)*(0.29690*sqrt(x) - 0.126*x - 0.3516*x.^2 + 0.2843*x.^3 - 0.1015*x.^4);
+y_thick = (t/0.2)*(0.29690*sqrt(x) - 0.126*x - 0.3516*x.^2 + 0.2843*x.^3 ...
+                   - 0.1015*x.^4);
 
 y_u = y_camb + y_thick;
 y_d = y_camb - y_thick;
@@ -94,12 +109,8 @@ y_d = y_camb - y_thick;
 h = plot(x,y_u,x,y_d,x,y_camb);
 axis equal
 legend('Upper surface','Lower Surface', 'Camber line');
-if floor(airfoil/100) == 0
-    title_string = sprintf('Plot of airfoil NACA 00%d',airfoil);
-else
-    title_string = sprintf('Plot of airfoil NACA %d',airfoil);
-end
-title(title_string)
+
+title(sprintf('Plot of airfoil %s',airfoil))
 xlabel('x/c')
 ylabel('y/c')
 set(h,'LineWidth',2)
