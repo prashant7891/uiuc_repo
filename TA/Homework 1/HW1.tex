@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[11pt,a4paper]{article}
 \usepackage{fullpage}
 \usepackage{listings}
 \usepackage{graphicx}
@@ -38,6 +38,20 @@
         stepnumber=5                            % Line numbers go in steps of 5
         }
 
+\newcommand{\scalefig}[3]{
+  \begin{figure}[ht!]
+    % Requires \usepackage{graphicx}
+    \centering
+    \includegraphics[width=#2\columnwidth]{#1}
+    %%% I think \captionwidth (see above) can go away as long as
+    %%% \centering is above
+    %\captionwidth{#2\columnwidth}%
+    \caption{#3}
+    \label{#1}
+  \end{figure}}
+
+
+
 \begin{document}
 
 
@@ -51,30 +65,9 @@ Problem 1: \lstinputlisting{Giri_Subramanian_1.m}
 
 The plots generated have been attached below.
 
-\begin{center}
-\begin{figure}[!ht]
-\includegraphics[scale=0.75]{Giri_Subramanian_HW_1_Problem_1}
-\caption{Question 1}
-\end{figure}
-
-\begin{figure}[!ht]
-\includegraphics[scale=0.75]{Giri_Subramanian_HW_1_Problem_2a}
-\caption{Question 2}
-\end{figure}
-\end{center}
-
-\begin{center}
-\begin{figure}[!h]
-\includegraphics[scale=0.4]{Giri_Subramanian_HW_1_Problem_3}
-\caption{Question 3}
-\end{figure}
-
-\begin{figure}[!h]
-\includegraphics[scale=0.75]{Giri_Subramanian_HW_1_Problem_4}
-\caption{Question 4}
-\end{figure}
-\end{center}
-
-
+\scalefig{Giri_Subramanian_HW_1_Problem_1}{0.75}{Question 1}
+\scalefig{Giri_Subramanian_HW_1_Problem_2a}{0.75}{Question 2}
+\scalefig{Giri_Subramanian_HW_1_Problem_3}{0.75}{Question 3}
+\scalefig{Giri_Subramanian_HW_1_Problem_4}{0.75}{Question 4}
 
 \end{document}
