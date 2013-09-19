@@ -12,8 +12,18 @@
 \usepackage{subscript}
 \usepackage[T1]{fontenc}
 \usepackage{subfig}
-\usepackage{pdfpages}
-
+\usepackage{multirow}
+\newcommand{\scalefig}[3]{
+  \begin{figure}[ht!]
+    % Requires \usepackage{graphicx}
+    \centering
+    \includegraphics[width=#2\columnwidth]{#1}
+    %%% I think \captionwidth (see above) can go away as long as
+    %%% \centering is above
+    %\captionwidth{#2\columnwidth}%
+    \caption{#3}
+    \label{#1}
+  \end{figure}}
 
 \begin{document}
 
@@ -33,15 +43,12 @@
 \input{missions_ap}
 \input{missions_hp}
 \input{filler}
+\input{missions_our_proposals}
 \input{sensors_actuators_giri}
-
-
-%\input{sensors_actuators_david_bin}
 \input{conclusion}
 
 
 \newpage
 \bibliographystyle{IEEEtran}
-\bibliography{main_bib}%,sensors_actuators_bib_bin}
-%\bibliography{missions_bib_javier} 
+\bibliography{main_bib}
 \end{document}
