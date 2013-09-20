@@ -1,0 +1,1469 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.5)  17 SEP 2013 19:44
+entering extended mode
+**Sensors_and_Actuators_Table.tex
+
+("C:\Users\Dave\Desktop\CubeSat\Detailed Sensors and Actuators Report\Sensor_de
+tail\Sensors_and_Actuators_Table.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MikTeX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MikTeX\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MikTeX\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MikTeX\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MikTeX\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MikTeX\tex\latex\base\latin9.def"
+File: latin9.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MikTeX\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MikTeX\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MikTeX\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\MikTeX\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MikTeX\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MikTeX\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MikTeX\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count90
+\calc@Cskip=\skip45
+)
+("C:\Program Files\MikTeX\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files\MikTeX\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files\MikTeX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MikTeX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MikTeX\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+("C:\Program Files\MikTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MikTeX\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MikTeX\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MikTeX\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("C:\Program Files\MikTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MikTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MikTeX\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MikTeX\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+("C:\Program Files\MikTeX\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks17
+\c@AM@survey=\count92
+\AM@templatesizebox=\box27
+)
+("C:\Program Files\MikTeX\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count93
+\float@exts=\toks18
+\float@box=\box28
+\@float@everytoks=\toks19
+\@floatcapt=\box29
+)
+("C:\Program Files\MikTeX\tex\latex\mh\mathtools.sty"
+Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+
+("C:\Program Files\MikTeX\tex\latex\mh\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+("C:\Program Files\MikTeX\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MikTeX\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MikTeX\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen108
+))
+("C:\Program Files\MikTeX\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+("C:\Program Files\MikTeX\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks21
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks22
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks23
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+\g_MT_multlinerow_int=\count106
+\l_MT_multwidth_dim=\dimen117
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen118
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen119
+\l_MT_above_intertext_dim=\dimen120
+\l_MT_below_intertext_dim=\dimen121
+\l_MT_above_shortintertext_dim=\dimen122
+\l_MT_below_shortintertext_dim=\dimen123
+)
+("C:\Program Files\MikTeX\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MikTeX\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MikTeX\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen124
+\Gm@wd@mp=\dimen125
+\Gm@odd@mp=\dimen126
+\Gm@even@mp=\dimen127
+\Gm@layoutwidth=\dimen128
+\Gm@layoutheight=\dimen129
+\Gm@layouthoffset=\dimen130
+\Gm@layoutvoffset=\dimen131
+\Gm@dimlist=\toks25
+
+("C:\Program Files\MikTeX\tex\latex\geometry\geometry.cfg"))
+("C:\Users\Dave\Desktop\CubeSat\Detailed Sensors and Actuators Report\Sensor_de
+tail\Sensors_and_Actuators_Table.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+\AtBeginShipoutBox=\box32
+
+("C:\Program Files\MikTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen132
+\scratchbox=\box33
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen133
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks27
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+<../IMU/siliconSensing_IMU.png, id=1, 721.94719pt x 223.58531pt>
+File: ../IMU/siliconSensing_IMU.png Graphic file (type png)
+
+<use ../IMU/siliconSensing_IMU.png>
+Package pdftex.def Info: ../IMU/siliconSensing_IMU.png used on input line 33.
+(pdftex.def)             Requested size: 433.17165pt x 134.1522pt.
+
+
+LaTeX Warning: Citation `imu1' on page 1 undefined on input line 34.
+
+[1
+
+{C:/Users/Dave/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Dav
+e/Desktop/CubeSat/Detailed Sensors and Actuators Report/IMU/siliconSensing_IMU.
+png>]
+<../IMU/AnalogDevices_Full_List.pdf, id=16, page=1, 794.97pt x 596.2275pt>
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 1>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page1 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 794.96806pt x 596.22604pt.
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 1>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page1 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 1>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page1 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 1>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page1 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 1>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page1 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+ [2 <C:/Users/Dave/Desktop/CubeSat/Detailed Sensors and Actuators Report/IMU/An
+alogDevices_Full_List.pdf>]
+<../IMU/AnalogDevices_Full_List.pdf, id=59, page=2, 794.97pt x 596.2275pt>
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 2>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page2 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 2>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page2 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+File: ../IMU/AnalogDevices_Full_List.pdf Graphic file (type pdf)
+
+<use ../IMU/AnalogDevices_Full_List.pdf, page 2>
+Package pdftex.def Info: ../IMU/AnalogDevices_Full_List.pdf, page2 used on inpu
+t line 39.
+(pdftex.def)             Requested size: 615.04005pt x 461.28004pt.
+ [3 <C:/Users/Dave/Desktop/CubeSat/Detailed Sensors and Actuators Report/IMU/An
+alogDevices_Full_List.pdf>]
+
+LaTeX Warning: Citation `imu2' on page 4 undefined on input line 40.
+
+
+LaTeX Warning: Citation `Gangestad' on page 4 undefined on input line 51.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]\T1/cmr/m/n/10 Aerocube-4
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 51--51
+[]\T1/cmr/m/n/10 Orbit de-ter-mi-na-tion once per
+ []
+
+
+LaTeX Warning: Citation `Prokhorov' on page 4 undefined on input line 53.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]\T1/cmr/m/n/10 Nano Star
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\T1/cmr/m/n/10 Tracker on
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 53--53
+\T1/cmr/m/n/10 Chip (STC)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]\T1/cmr/m/n/10 73.5x 57.0x
+ []
+
+
+LaTeX Warning: Citation `BCT' on page 4 undefined on input line 66.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\T1/cmr/m/n/10 Tech-nolo-gies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\T1/cmr/m/n/10 Nano Star
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]\T1/cmr/m/n/10 <0.5W
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\T1/cmr/m/n/10 power con-
+ []
+
+
+LaTeX Warning: Citation `aes2' on page 4 undefined on input line 68.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\T1/cmr/m/n/10 SD085-23-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\T1/cmr/m/n/10 3.76x 1.5x
+ []
+
+
+LaTeX Warning: Citation `aes3' on page 4 undefined on input line 70.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]\T1/cmr/m/n/10 Melexis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T1/cmr/m/n/10 MLX90615
+ []
+
+
+LaTeX Warning: Citation `aes4' on page 4 undefined on input line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/cmr/m/n/10 Honeywell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/cmr/m/n/10 HMC6042
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 73--73
+[]\T1/cmr/m/n/10 5 x 3.6 x
+ []
+
+
+LaTeX Warning: Citation `aes5' on page 4 undefined on input line 75.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]\T1/cmr/m/n/10 Honeywell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/cmr/m/n/10 HMC1041Z
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]\T1/cmr/m/n/10 1.15x4x1.25
+ []
+
+
+LaTeX Warning: Citation `SMI' on page 4 undefined on input line 77.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/cmr/m/n/10 Coarse Sun
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 77--77
+[]\T1/cmr/m/n/10 1.27 cm di-
+ []
+
+
+LaTeX Warning: Citation `SMI' on page 4 undefined on input line 79.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\T1/cmr/m/n/10 2.43 cm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/10 di-am-e-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/10 x 3.49cm
+ []
+
+
+LaTeX Warning: Citation `BST' on page 4 undefined on input line 81.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/cmr/m/n/10 Tech-nolo-gies
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 81--81
+\T1/cmr/m/n/10 mm x 38.1
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 4 undefined on input line 83.
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 83--83
+[]\T1/cmr/m/n/10 Digital Fine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\T1/cmr/m/n/10 Sun Sen-sor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\T1/cmr/m/n/10 Cube-Sat-
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 4 undefined on input line 85.
+
+
+Overfull \hbox (6.16243pt too wide) in paragraph at lines 85--85
+[]\T1/cmr/m/n/10 Magnetometer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\T1/cmr/m/n/10 15 g
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 sen-sor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 150 g
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 elec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]\T1/cmr/m/n/10 Sensor:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 10x10x5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 mm, Elec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 tron-ics:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\T1/cmr/m/n/10 90x30x11
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 4 undefined on input line 87.
+
+
+Overfull \hbox (34.146pt too wide) in paragraph at lines 61--90
+ [] 
+ []
+
+
+LaTeX Warning: Citation `Ref:ids2' on page 4 undefined on input line 102.
+
+
+LaTeX Warning: Citation `Ref:ids1' on page 4 undefined on input line 104.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]\T1/cmr/m/n/10 IBIS4-1300
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+LaTeX Warning: Citation `Gangestad' on page 5 undefined on input line 119.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\T1/cmr/m/n/10 Aerocube-4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/cmr/m/n/10 Re-tractable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\T1/cmr/m/n/10 Uses wings
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\T1/cmr/m/n/10 to ad-just
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 119--119
+\T1/cmr/m/n/10 in-track for-
+ []
+
+
+LaTeX Warning: Citation `BCT' on page 5 undefined on input line 121.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 Tech-nolo-gies
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 121--121
+\T1/cmr/m/n/10 Mi-cro Re-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 tion Wheel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]\T1/cmr/m/n/10 43x43x18
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]\T1/cmr/m/n/10 Momentum:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 18 mNms,
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 121--121
+\T1/cmr/m/n/10 Max Speed:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 6000 RPM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 Torque:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 0.6mNm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 Life-time:
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 121--121
+\T1/cmr/m/n/10 > 3 years,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 Nom-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 power con-
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 121--121
+\T1/cmr/m/n/10 0.1W, Peak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 power: <
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/cmr/m/n/10 1.0W, Op
+ []
+
+
+LaTeX Warning: Citation `BCT' on page 5 undefined on input line 123.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\T1/cmr/m/n/10 BCT In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/cmr/m/n/10 te-grated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/cmr/m/n/10 At-ti-tude
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\T1/cmr/m/n/10 Con-trol for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\T1/cmr/m/n/10 < 0.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\T1/cmr/m/n/10 < 10x10x5
+ []
+
+
+LaTeX Warning: Citation `Sinclair' on page 5 undefined on input line 125.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\T1/cmr/m/n/10 Sinclair In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 ter-plan-e-tary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 RW-0.007-4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\T1/cmr/m/n/10 Nominal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 Torque
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 1 mNm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 Nom-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 Mo-men-tum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/cmr/m/n/10 7 mNm-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 125--125
+\T1/cmr/m/n/10 sec, Sup-ply
+ []
+
+
+LaTeX Warning: Citation `Sinclair' on page 5 undefined on input line 127.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\T1/cmr/m/n/10 Sinclair In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 ter-plan-e-tary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 RW-0.01-4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\T1/cmr/m/n/10 Nominal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 Torque
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 1 mNm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 Nom-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 Mo-men-tum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/m/n/10 10 mNm-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 127--127
+\T1/cmr/m/n/10 sec, Sup-ply
+ []
+
+
+LaTeX Warning: Citation `Sinclair' on page 5 undefined on input line 129.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]\T1/cmr/m/n/10 Sinclair In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 ter-plan-e-tary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 RW-0.03-4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]\T1/cmr/m/n/10 Nominal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 Torque
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 2 mNm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 Nom-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 Mo-men-tum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\T1/cmr/m/n/10 30 mNm-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 129--129
+\T1/cmr/m/n/10 sec, Sup-ply
+ []
+
+
+LaTeX Warning: Citation `BST' on page 5 undefined on input line 131.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Tech-nolo-gies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 iACDS-100
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]\T1/cmr/m/n/10 95 mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 x90mm x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]\T1/cmr/m/n/10 Power
+ []
+
+
+Overfull \hbox (0.71931pt too wide) in paragraph at lines 131--131
+\T1/cmr/m/n/10 (Nom/Peak):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 0.5W/1.8W,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Ac-tu-a-tors:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 3 Re-ac-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Wheels, 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Mag-ne-tor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 quer, Sen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 sors: Star
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Tracker, 3-
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Gyro, Mag-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 ne-tome-ter,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T1/cmr/m/n/10 Ac-celerom-e-
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 5 undefined on input line 133.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\T1/cmr/m/n/10 MAI-400
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/cmr/m/n/10 ADACS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T1/cmr/m/n/10 Cube-Sat-
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 5 undefined on input line 135.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]\T1/cmr/m/n/10 MAI-300
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/cmr/m/n/10 Sin-gle Axis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/cmr/m/n/10 Re-ac-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]\T1/cmr/m/n/10 68.5mm x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/cmr/m/n/10 68.5mm x
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 5 undefined on input line 137.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\T1/cmr/m/n/10 MAI-201
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\T1/cmr/m/n/10 Minia-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\T1/cmr/m/n/10 tion Wheel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\T1/cmr/m/n/10 76.2mm x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+\T1/cmr/m/n/10 76.2mm x
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 5 undefined on input line 139.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]\T1/cmr/m/n/10 MAI-200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]\T1/cmr/m/n/10 100mm x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\T1/cmr/m/n/10 100mm x
+ []
+
+
+Overfull \hbox (932.24612pt too wide) in paragraph at lines 115--141
+ [] 
+ []
+
+[5]
+Overfull \vbox (308.49992pt too high) has occurred while \output is active []
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Overfull \hbox (18.02896pt too wide) in paragraph at lines 149--149
+[]\T1/cmr/bx/n/10 Accuracy| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\T1/cmr/m/n/10 Mag-ne-tor-
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 151--151
+[]\T1/cmr/m/n/10 100 x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\T1/cmr/m/n/10 100
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 151--151
+\T1/cmr/m/n/10 x 4.3
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 153--153
+[]\T1/cmr/m/n/10 SSBV mag-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\T1/cmr/m/n/10 ne-tor-quer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]\T1/cmr/m/n/10 L7 x
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 7 undefined on input line 155.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\T1/cmr/m/n/10 CubeSat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmr/m/n/10 Mag-ne-tor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmr/m/n/10 quer Rod
+ []
+
+
+Overfull \hbox (2.2342pt too wide) in paragraph at lines 155--155
+[]\T1/cmr/m/n/10 Length
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 155--155
+\T1/cmr/m/n/10 7 cm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+\T1/cmr/m/n/10 Di-am-
+ []
+
+
+LaTeX Warning: Citation `CubeShop' on page 7 undefined on input line 157.
+
+
+Overfull \hbox (0.636pt too wide) in paragraph at lines 157--157
+[]\T1/cmr/m/n/10 CubeTorquer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]\T1/cmr/m/n/10 22.25
+ []
+
+
+Overfull \hbox (2.2342pt too wide) in paragraph at lines 157--157
+[]\T1/cmr/m/n/10 Length
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/cmr/m/n/10 60
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/cmr/m/n/10 mm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/cmr/m/n/10 Di-am-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/cmr/m/n/10 e-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\T1/cmr/m/n/10 10
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 171.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]\T1/cmr/m/n/10 Spence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\T1/cmr/m/n/10 Pressure-fed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\T1/cmr/m/n/10 elec-tro-spray
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]\T1/cmr/m/n/10 <1.15
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 173.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]\T1/cmr/m/n/10 Micro-pulsed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+\T1/cmr/m/n/10 plasma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]\T1/cmr/m/n/10 <0.55
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 175.
+
+
+Overfull \hbox (4.63503pt too wide) in paragraph at lines 175--175
+[]\T1/cmr/m/n/10 Unpressurized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\T1/cmr/m/n/10 (wick-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\T1/cmr/m/n/10 feed) elec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+\T1/cmr/m/n/10 tro-spray
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]\T1/cmr/m/n/10 <0.4
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 178.
+
+
+Overfull \hbox (8.24525pt too wide) in paragraph at lines 178--178
+[]\T1/cmr/m/n/10 Microresistojet
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 181.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]\T1/cmr/m/n/10 <1.25
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 184.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\T1/cmr/m/n/10 pro-pel-lant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]\T1/cmr/m/n/10 < 1
+ []
+
+
+LaTeX Warning: Citation `Spence' on page 7 undefined on input line 187.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+\T1/cmr/m/n/10 Mi-cro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+\T1/cmr/m/n/10 propul-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]\T1/cmr/m/n/10 50s-
+ []
+
+
+LaTeX Warning: Citation `Ref:thr9' on page 7 undefined on input line 200.
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 200--200
+[]\T1/cmr/m/n/10 Ion elec-tro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]\T1/cmr/m/n/10 40x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\T1/cmr/m/n/10 40x
+ []
+
+
+LaTeX Warning: Citation `Ref:thr10' on page 7 undefined on input line 202.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]\T1/cmr/m/n/10 YUsend-1
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 209--215
+
+ []
+
+
+("C:\Users\Dave\Desktop\CubeSat\Detailed Sensors and Actuators Report\Sensor_de
+tail\Sensors_and_Actuators_Table.bbl"
+
+LaTeX Warning: Empty `thebibliography' environment on input line 24.
+
+) [8]
+("C:\Users\Dave\Desktop\CubeSat\Detailed Sensors and Actuators Report\Sensor_de
+tail\Sensors_and_Actuators_Table.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4560 strings out of 494045
+ 61973 string characters out of 3150003
+ 149884 words of memory out of 3000000
+ 7787 multiletter control sequences out of 15000+200000
+ 12118 words of font info for 34 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 39i,18n,43p,547b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MikTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program
+ Files/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MikTe
+X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MikTeX/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MikTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Program Files/MikTeX/fonts/type1/public/cm-super/sfbx1000.
+pfb><C:/Program Files/MikTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Progr
+am Files/MikTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MikT
+eX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MikTeX/fonts/type
+1/public/cm-super/sfrm1728.pfb>
+Output written on Sensors_and_Actuators_Table.pdf (8 pages, 269184 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
