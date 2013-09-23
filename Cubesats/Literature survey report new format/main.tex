@@ -1,0 +1,59 @@
+\documentclass[11pt,letter]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[pdfborder={0 0 0},colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage{fullpage}
+\usepackage{float}
+\usepackage{textcomp}
+\let\textquotedbl="
+\usepackage{subscript}
+\usepackage[T1]{fontenc}
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{pdfpages}
+
+\newcommand{\scalefig}[3]{
+  \begin{figure}[ht!]
+    % Requires \usepackage{graphicx}
+    \centering
+    \includegraphics[width=#2\columnwidth]{#1}
+    %%% I think \captionwidth (see above) can go away as long as
+    %%% \centering is above
+    %\captionwidth{#2\columnwidth}%
+    \caption{#3}
+    \label{#1}
+  \end{figure}}
+
+\begin{document}
+
+\input{title_page}
+
+\newpage
+\begingroup
+\hypersetup{linkcolor=black}
+\tableofcontents
+\listoffigures
+\listoftables
+\endgroup
+
+\newpage
+\input{introduction}
+\input{missions_es}
+\input{missions_ps}
+\input{missions_ap}
+\input{missions_hp}
+\input{missions_tech_demo}
+\input{filler}
+\input{missions_our_proposals}
+\newpage
+\input{sensors_actuators}
+\input{conclusion}
+
+
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{main_bib}
+\end{document}

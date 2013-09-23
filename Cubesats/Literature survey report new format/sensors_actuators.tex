@@ -1,0 +1,217 @@
+\section{Actuators and Sensors}
+Listed in this part of the report is a set of sensors, actuators, and thrusters that could potentially be used on Cubesats from 1U to 3U. There is a wide range of sensors and actuators available for use depending on size, weight, and performance constraints. While thrusters currently on the market are generally of a lower technology readiness level than the available sensors on the market, there are still a range of options among available thrusters to choose based on size, weight, and performance constraints as well. 
+
+Additionally, there are several integrated attitude determination and attitude control products available on the market. These systems usually are quite compact and contain star trackers, sun sensors, and reaction wheels among other sensors and actuators. Finally, the end of this report presents a short list of general suppliers that can be considered in the future for sensor and actuator parts as well as parts for other systems on the cubesat. 
+
+\subsection{Inertial Measurement Unit(IMU)}
+
+%% IMU(gyro, accelero, magneto, baro..etc)
+Most inertial measurement units (IMU) or inertial navigation systems (INS) include sensors for both position estimation and attitude estimation. \\\\
+
+%%Silicon Sensing IMU
+
+\begin{figure}[!ht]
+   \includegraphics[scale=0.6]{siliconSensing_IMU.PNG}
+   \caption{IMU's from Silicon Sensing (source: \href{http://www.siliconsensing.com/products/inertial-modules-systems/}{link})}
+\end{figure}
+
+
+%% Analog Devices IMU + Gyro + accelo
+\includepdf[pages={1,2}]{AnalogDevices_Full_List.pdf}
+The information in the above table has been taken from the \href{http://www.analog.com/static/imported-files/selection_tables/MEMS_Inertial_Sensors_Selection_Tables.pdf}{product web page}.
+
+\subsection{Position Estimation Sensors}
+%% List GPS
+\begin{center}
+
+     \begin{tabular}{ |p{2cm} | p{1cm} | p{2cm} | l | l | l | p{5cm} |}
+     \hline
+
+      {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
+
+     Aerocube-4 GPS \cite{Gangestad} & NA & NA &  {$ \pm 20 $} & GPS receiver & NA & Orbit determination once per day or as power system permits \\ \hline
+
+     Nano Star Tracker on Chip (STC) \cite{Prokhorov} & 65 g & 73.5x 57.0x 57.8 mm & 10''- 50'' & Star Tracker & NA & 19.5 deg field of view, update rate 10 Hz, mean power (without Peltier cooler 250mW), peak power 1 W \\ \hline
+     \end{tabular}
+     \captionof{table}{Available position estimation sensors}
+\end{center}
+
+\subsection{Attitude Estimation Sensors}
+%% List Star Trackers and Sun, Earth sensors, magnetometer.
+Some attitude estimation sensors and actuators were obtained from the small satellite conference organized by KISS in 2012. They are shown in the image given below.  Apart from this, a table containing actuators and sensors from other sources has also been given below. 
+\scalefig{attitude_control.png}{1}{Current attitude control sensors and actuators (source: \href{http://kiss.caltech.edu/workshops/smallsat2012b/presentations/bennett.pdf}{Presentation by Matt Bennett})}
+
+\begin{center}
+     \begin{tabular}{ | p{2.25cm} | p{1.25cm} | p{2cm} | p{4cm} | l | l | p{1.75cm} |}
+     \hline
+
+      {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
+
+     Blue Canyon Technologies Nano Star Camera 1 \cite{BCT} & <0.5 Kg& < 5 x 5 x 10 cm & 7-24 arc-sec & Star Tracker & NA & <0.5W power consumption \\ \hline
+
+     SD085-23-21-021 (source: \href{http://www.advancedphotonix.com/ap_products/pdfs/SD085-23-21-021.pdf}{link}) & NA & 3.76 x 1.5 x 3.3 mm & NA & Sun Sensor & 9 & \\ \hline
+
+     Melexis MLX90615 (source: \href{http://goo.gl/7WGMAj}{link}) & NA & 4.7 x 4.7 x 2.7 mm & 0.5 deg over 0 to 50 deg C & Earth Nadir Sensor & 9 &  \\
+     \hline
+
+     Honeywell HMC6042 (source: \href{http://www.sssj.co.jp/products/magnetic/pdf/HMC6042.pdf}{link}) & NA & 5 x 3.6 x 1.0 mm & 0.15 milliGauss & 2-Axis Magnet & 9 &   \\ \hline
+
+     Honeywell HMC1041Z (source: \href{http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Missiles-Munitions/HMC1041Z.pdf}{link}) & NA &1.15 x 4 x 1.25 mm & 0.15 milliGauss & 1-Axis Magnet & 9 &   \\ \hline
+     
+     Space Micro Coarse Sun Sensor \cite{SMI} &  10 g & 1.27 (diameter) x 0.90 (height) cm & 5 deg of 1 axis knowledge & Sun Sensor & 9 & \\ \hline
+     
+     Space Micro Medium Sun Sensor \cite{SMI} & 36 g &	2.43 (diameter) x 3.49 (height) cm & 1 deg of 2 axis knowledge & Sun Sensor & 9 & \\ \hline
+     
+	Berlin Space Technologies ST-200 \cite{BST} & 50 g & 30 x 30 x 38.1 mm & 30 arc-sec (pitch/yaw), 200 arc-sec (roll) & Star Tracker & 7 & \\ \hline
+
+	Digital Fine Sun Sensor CubeSatShop \cite{CubeShop} & 35 g & 34 x 32 x 21 mm & 0.1 deg & Sun Sensor & 7 & \\ \hline
+	
+	Magnetometer \cite{CubeShop} & 15 g sensor, 150 g electronics & Sensor: 10 x 10 x 5 mm, Electronics: 90 x 30 x 11 mm & Sensitivity: 10 nT & Magnetometer & 9 & \\ \hline
+	
+	CubeSat Sun Sensor \cite{CubeShop} & < 5 g & 33 x 11 x 6 mm & < 0.5 deg & Sun Sensor & 7 & \\ \hline
+
+     \end{tabular}
+     \captionof{table}{Available attitude estimation sensors}
+\end{center}
+
+\subsection{Inter-satellite Distance Sensors}
+%% Vision and more...
+
+
+\begin{center}
+     \begin{tabular}{ |p{2cm} | l | l | l | l | l | p{5cm} |}
+     \hline
+
+      {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
+
+     Nexus S \cite{Ref:ids2} & 129g & 123.9 x 63 x 11 & 1.53 m , 3 deg @30 m & Vision & NA  &   \\ \hline
+
+     IBIS4-1300 \cite{Ref:ids1} & NA & NA & < 100 arc-s & Vision & NA & Vision based Star Tracker and Topology (for formation flying). Does not talk about satellite detection methods \\ \hline
+     \end{tabular}
+     \captionof{table}{Available inter-satellite distance sensors}
+\end{center}
+
+
+\subsection{Actuators}
+
+%{\bf {\underline{Reaction Wheels, Extending Wings, and Integrated Packages}}} \\
+
+\begin{center}
+     \begin{tabular}{ | p{2cm} | p{1.25cm} | p{2cm} | p{2cm} | p{2cm} | p{1cm} | p{5cm} |}
+     \hline
+      {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
+      
+	  Aerocube-4 Retractable wings \cite{Gangestad} & NA & 2 wings, each 9 x 10 cm & N/A & Extending Wings & 7 & Uses wings to adjust in-track formation for 3 satellites \\ \hline
+	  
+	  Blue Canyon Technologies Micro Reaction Wheel \cite{BCT} & 150 g & 43 x 43 x 18 mm & NA & Reaction Wheel & NA & Momentum: 18 mNms, Max Speed: 6000 RPM, Torque: 0.6mNm, Lifetime: > 3 years, Nominal power consumption: < 0.1W, Peak power: < 1.0W, Op Voltage: 5 to 15 V \\ \hline
+	  
+	  BCT Integrated Attitude Control for Cubesats \cite{BCT} & < 0.7 Kg & < 10 x 10 x 5 cm (0.5U) & Spacecraft Pointing Accuracy: 0.003 deg (1-sig) for 2 axes, 0.007 deg (1-sig) for 3rd axis	Integration Package & NA & NA & Spacecraft Lifetime > 1 year, Nominal Power consumption: <0.5 W, Peak Power: <2.0W, Slew Rate (8kg, 3U CubeSat): > 10 deg/sec   \\ \hline
+	 
+	 Sinclair Interplanetary RW-0.007-4 \cite{Sinclair} & 90 g & 50 x 40 x 27 mm & NA & Reaction Wheel & 7 & Nominal Torque 1 mNm, Nominal Momentum 7 mNm-sec, Supply Power 0.1 W to 0.7 W \\ \hline
+
+	Sinclair Interplanetary RW-0.01-4 \cite{Sinclair} & 120 g & 50 x 50 x 30 & NA & Reaction Wheel & 7 & Nominal Torque 1 mNm, Nominal Momentum 10 mNm-sec, Supply Power 0.1 W to 0.7 W \\ \hline
+		  
+	 \end{tabular}
+\end{center} 
+
+\begin{center}
+     \begin{tabular}{ | p{2cm} | p{1.25cm} | p{2cm} | p{2cm} | p{2cm} | p{1cm} | p{5cm} |}
+	 \hline 
+	   
+Sinclair Interplanetary RW-0.03-4 \cite{Sinclair} & 185 g & 50 x 50 x 40 mm & NA & Reaction Wheel & 9 & Nominal Torque 2 mNm, Nominal Momentum 30 mNm-sec, Supply Power 0.1 W to 1.5 W \\ \hline
+	   
+Berlin Space Technologies iACDS-100 \cite{BST} & 250 g & 95 x 90 x 32 mm & <<1$^o$ pointing,(30 arc-sec in Pitch/Yaw, and 200 arcsec in Roll for att. Determination) & Integrated ACDS product & 6 & Power (Nom/Peak): 0.5W/1.8W, Actuators: 3 Reaction Wheels, 3 Magnetorquer, Sensors: Star Tracker, 3-Axes MEMS Gyro, Magnetometer, Accelerometer \\ \hline 
+	   
+MAI-400 ADACS CubeSatShop \cite{CubeShop} & 694 g & 10 x 10 x 5 cm	& Integrated ACDS product & 7 & NA & Sensors: 3-axis magnetometer, coarse sun sensor, EHS camera, Actuators: 3 torque rods  \\ \hline 
+	   
+MAI-300 Single Axis Reaction Wheel \cite{CubeShop} & 317 g & 68.5 x 68.5 x 33.0 mm & NA & Reaction Wheel & 7 & Max Torque: 0.625 mNm \\ \hline
+	   
+MAI-201 Miniature 3-Axis Reaction Wheel \cite{CubeShop} & 640 g & 76.2 x 76.2 x 70 mm & NA & Reaction Wheel & 7 & Max Torque: 0.625 mNm \\ \hline
+	   
+MAI-200 ADACS \cite{CubeShop} & 907 g & 100 x 100 x 78.75 mm & NA & Integrated ACDS product & 7 & Max Torque: 0.625 mNm \\ \hline
+     \end{tabular}
+	\captionof{table}{Reaction Wheels, Extending Wings, and Integrated Packages}
+\end{center}
+
+%{\bf \underline{Magnetorquers}}\\
+
+\begin{center}
+     \begin{tabular}{ |p{2cm} | p{1cm} | p{2cm} |  p{2cm} | l | p{2cm} | l | p{4cm} | p{1cm} | p{2cm} |  }
+     \hline
+
+      {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
+      
+       Clyde Z-Axis Magnetorquer & 50 g & 100 x 100 x 4.3 mm & NA & Torquer & NA & magnetic moment of 0.19Am2 \\ \hline
+       
+	   SSBV magnetorquer rod & <30 g & L7 x D9 & NA & Torquer & NA & Magnetic moment: >0.2Am2 \\ \hline
+	   
+	   CubeSat Magnetorquer Rod \cite{CubeShop} & 30 g & Length 7 cm, Diameter < 9 mm & NA & Torquer & NA & Magnetic moment: 0.2 $Am^2$ \\ \hline
+	   
+	   CubeTorquer \cite{CubeShop} & 22.25 g & Length 60 mm, Diameter 10 mm & NA & Torquer & NA & Magnetic moment: 0.2 $Am^2$ \\ \hline	 
+     \end{tabular}
+     \captionof{table}{Available Magnetorquers}
+\end{center}
+
+\subsection{Thrusters}
+
+Figure 11 gives information on the thrusters, which was obtained from the small satellite conference organized by KISS in 2012. They are shown in the image given below.  Apart from this, a table containing actuators and sensors from other sources has also been given below.
+
+\scalefig{prop_available.png}{0.8}{Current available thrusters (source: \href{http://kiss.caltech.edu/workshops/smallsat2012b/presentations/bennett.pdf}{Presentation by Matt Bennett})}
+
+\begin{center}
+     \begin{tabular}{ |p{2.25cm} | p{1cm} | p{1cm} |  p{1cm} | l | p{2cm} | l | p{4cm} | p{1cm} | p{2cm} |  }
+     \hline
+
+       {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Isp} & {\bf $\Delta V$} & {\bf Thrust} & {\bf System Power}&{\bf Comment}  \\ \hline
+
+
+     Spence Pressure-fed electrospray \cite{Spence} & <1.15 Kg& 0.56 U& 800 & 151 m/s & 0.7 mN &< 9W &   \\ \hline
+
+     Micro-pulsed plasma thruster \cite{Spence} & <0.55 Kg& 0.5 U & 700 & 63 m/s&  & 2W @ 2hz fire &  Impulse: 0.5 mN-s primary, 0.13 mN-s ACS\\ \hline
+
+     Unpressurized (wicking feed) electrospray \cite{Spence} & <0.4 Kg& 0.4 U& 750 & 76 m/s & 0.1 mN & 1W &  \\
+     \hline
+
+     Microresistojet (MRJ) \cite{Spence} & < 1.25 Kg& 1.0 U&150 & 60m/s & 2-10mN & 3-15W&   \\
+     \hline
+
+     RF Ion \cite{Spence} & <1.25 Kg& 1.25 U& 1800 & 244m/s & 0.067 mN &10W &   \\
+     \hline
+
+     Green monopropellant \cite{Spence} & < 1 Kg& 0.5 U& 240 & 130m/s & 0.5N & 15W&   \\
+     \hline
+
+	Nanosatellite Micropropulsion System \cite{Spence} & 300 g & NA &	50s-100s & NA & nominal: 100 uN to 10 mN & < 2 W & Pointing Res: 0.1 arcsec \\ \hline
+
+     \end{tabular}
+     \captionof{table}{Thrusters available off the shelf}
+\end{center} 
+
+\begin{center}
+     \begin{tabular}{ |p{2cm} | p{1cm} | p{1cm} |  p{1cm} | l | l | l | p{5cm} | p{1cm} | p{1cm} }
+     \hline
+
+       {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Isp} & {\bf $\delta V$} & {\bf Thrust} & {\bf Comment}  \\ \hline
+
+     Ion electrospray \cite{Ref:thr9} & & 1/3 U & 2500 & 200m/s & 0.1 mN&  \\ \hline
+     {$\mu$}VAT&150g& 40x 40x 40mm & 1000&   & 5.4{$\mu$}N & Turn 90 degrees in 10 minutes.\\ \hline
+     YUsend-1 SPT \cite{Ref:thr10} &94 g &   &   &   & 0.15 mN & \\ \hline
+     \end{tabular}
+     \captionof{table}{Thrusters not yet available off the shelf}
+\end{center}
+
+\subsection{Potential Suppliers}
+Some of the potential suppliers that can be used to procure the required components have been listed below. 
+\begin{itemize}
+\item CU Aerospace
+\item Blue Canyon Technologies
+\item Melexis
+\item Analog Devices
+\item Silicon Sensing
+\item Sinclair Interplanetary
+\item Berlin Space Technologies
+\end{itemize}
+
+Given below is a chart showing what can be achieved using the state of the art controllers and actuators(as on December 2012). Thus, this has to be kept in mind while designing the mission. 
+
+\scalefig{state_of_art.png}{0.75}{Current state of the art specifications achievable in all fields (source: \href{http://kiss.caltech.edu/workshops/smallsat2012b/presentations/bennett.pdf}{Presentation by Matt Bennett})}
