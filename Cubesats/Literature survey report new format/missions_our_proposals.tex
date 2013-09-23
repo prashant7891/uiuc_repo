@@ -1,8 +1,7 @@
 \section{Our Mission Proposals}
 
 \subsection{Division of Labor in Satellite}
-Every year we throw away satellites because they become worn out. But usually it's only one of the components that causes the problem. The other components work fine but are needlessly thrown away. This makes satillites as one of the major contributors to the increase in space debris. DARPA's Pheonix satellite re-servicing mission addresses these issues and tries to utilize functioning part of the satellites. But instead of trying clean up what has already happened (like  re-using parts of defunct satellites), we propose a mission to reduce problems in the future.
-The idea is to apply division of labor. Instead of a one big satellite containing all the components, smaller satellites carrying one or two parts could fly in a constellation to represent a system as a whole. Some benefits are listed below: \\
+Every year we throw away satellites because they become worn out. But usually it's only one of the component that causes the problem. The other components work fine but is needlessly thrown away. This makes satellites as one of the major contributors to the build up of space debris. DARPA's Pheonix satellite re-servicing mission addresses these issues and tries to utilize functioning part of the satellites. But instead of trying clean up what has already happened (like  re-using parts of defunct satellites), we propose a mission to reduce problems in the future. The idea is to apply division of labor. Instead of a one big satellite containing all the components, smaller satellites carrying one or two parts could fly in a constellation to represent a system as a whole. Some benefits are listed below: \\
 
 {\bf Expandable:} If more computing power is needed, a CubeSat carrying another CPU could join the constellation. \\
  
@@ -14,14 +13,14 @@ If there is free space in terms of data transfer or processing power, same or di
 {\bf Green:} Creates less space waste.
 
 \subsection{Satellite Advertising}
-If CubeSats could carry a reflective surface or an LED to make itself visible from earth, tightly controlled formation flying CubeSats could spell out a word or even form a display screen in great numbers. Indeed, it would be most likely only visible with the help of a telescope but just the existence of space ad would have great impact on the media. Along with star viewing, it would become "the thing" to look at. Depending on visible areas at that time, different advertisements could be displayed.
+If CubeSats could carry reflective surface or an LED to make itself visible from earth, tightly controlled formation flying CubeSats could spell out a word or even form a display screen in great numbers. Indeed, it would be most likely only visible with the help of a telescope but just the existence of space ad would have great impact on the media. Along with star viewing, it would become "the thing" to look at. Depending on visible areas at that time, different advertisements could be displayed.
 
 \subsection{Orbiting Marker in Space}
-Controlled formation flying satellites could serve as a marker for vision based navigations. Multiple orbiting markers on some other planet could allow better pose estimation than existing star tracker.
+Controlled formation flying satellites could serve as a marker for vision based navigations. Multiple orbiting markers on some other planet could allow better pose estimation than existing star trackers.
 
 \subsection{Graveyard Orbit Transfer Service Formation Flying Proposal}
 \subsubsection{Summary}
-At the end of a satellite's service life, a satellite standard exists for the disposal of a spacecraft. For a geosynchronous spacecraft, it is typical to deposit the satellite in an orbit with a perigee altitude above 36,100 km \cite{standard}. This orbit is chosen due to the small $\Delta V$ required to move a spacecraft into the orbit (approximately 7.4 meters per second) and the tendency for the spacecraft to not return to an orbit used by operating spacecraft \cite {SMAD}. Recently however, only about one-third of GEO satellites that have reached the end of their life time have successfully achieved a so called ``graveyard orbit'' \cite{ESA}. The proposed formation flying spacecraft system seeks to increase the percent of spacecraft that successfully maneuver to a ``graveyard orbit'' in a cost effective manner. 
+At the end of a satellite's service life, a satellite standard exists for the disposal of a spacecraft. For a geosynchronous spacecraft, it is typical to deposit the satellite in an orbit with a perigee altitude above 36,100 km \cite{standard}. This orbit is chosen due to the small $\Delta V$ required to move a spacecraft into the orbit (approximately 7.4 meters per second) and the tendency for the spacecraft to not return to an orbit used by operating spacecraft \cite {SMAD}. Recently however, only about one-third of GEO satellite that have reached the end of their life time have successfully achieved a so called ``graveyard orbit'' \cite{ESA}. The proposed formation flying spacecraft system seeks to increase the percent of spacecraft that successfully maneuver to a ``graveyard orbit'' in a cost effective manner. 
 
 \subsubsection{Concept of Operations}
 As a proposed disposal method, consider a satellite in geosynchronous orbit that has just reached the end of its operational life time and cannot move to a graveyard orbit. A formation of CubeSat satellites (used for their extreme cost effectiveness) form together, dock with the dead spacecraft, and fire thrusters to move the dead spacecraft to a graveyard orbit. Because it is difficult to know ahead of time which spacecraft will successfully move themselves to a graveyard orbit and which will not, formation flight is essential to create re-configurable solutions for the many spacecraft that may or may not fail. There will be multiple types of 1U, 2U, and 3U CubeSats. Some CubeSats will serve as attitude and position controllers for the formation once formed together. Others will serve as major thrusters to move the dead satellite out of the geosynchronous orbit. Finally, the remaining CubeSats will act as fuel tanks for the system.
@@ -29,16 +28,80 @@ As a proposed disposal method, consider a satellite in geosynchronous orbit that
 \subsubsection{Proof of Concept CubeSat Mission}
 As a proof of concept, a 6U CubeSat could be launched along with three 1U CubeSats. The 6U CubeSat will act as a dead satellite. One of the 1U satellites will serve as a thruster, another as a fuel tank, and the final one as a controller of the formation. The controller will work to form a solution out of the three 1U CubeSats. The re-configured spacecraft will then dock with the 6U spacecraft and move it to a different orbit.
 
+
+\subsection{Optical Communication Mission}
+\subsubsection{Summary}
+In the late 1970s, work began on an optical communications technology that could provide orders of magnitude more data transferred from deep space missions than was possible with conventional radio frequency techniques \cite{Hemmati}. Major challenges for such a deep space system include the acquisition, tracking, and pointing for sub-micro-radian accuracy, the use of efficient lasers with moderate power and high modulation rates, and the use of fine-pointing mirrors \cite{FlightRD}. The atmosphere of Earth, additionally, acts as a major obstacle for an optical communications system. Even on a clear day, the atmosphere can significantly attenuate an optical signal. Thus, an optical deep space network will require many more ground stations than the current deep space network. A recent study by Northrop Grumman concluded that even if six ground sites (double the size of the current deep space network) were selected, the array would only be operable 83\% of the time \cite{Wojcik}. Leveraging a formation satellite system in a deep space optical communications network can realistically solve several open problems in optical communication literature and could alleviate major pointing constraints that would be placed on future spacecraft missions if the optical deep space network were constructed.
+
+A formation flying CubeSat mission offers a unique opportunity to demonstrate the technical viability of such a system. Such a mission, if pursued, would allow NASA to make significant progress towards goals laid out by the 2013 to 2022 Planetary Science Decadal Survey \cite{Planetary}. The Jet Propulsion Laboratory is currently conducting a systems engineering study of a base line deep space mission which could demonstrate optical communications technology \cite{Alvarez}. Such a CubeSat mission could add significant value to such a demonstration. Figure 4 displays an overview of the concept of operations of such a deep space formation flight network.
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.65]{OV1.jpg}
+\caption{Mission Concept of Operations Overview}
+\end{figure}
+
+\subsubsection{Motivation}
+NASA, and in particular the Jet Propulsion Laboratory, has invested significantly in the use of optical communication technology in spacecraft. The scientific community has realized the potential of such a technology and in the 2013 to 2022 Planetary Science Decadal Survey claimed the technology ``would be of major benefit for planetary exploration''. The report also recommends demonstrating such a technology in flight over the next decade \cite{Planetary}. Due to its higher frequencies, optical communication technology is expected to enable the realistic use of synthetic aperture radar as well as other currently unusable remote sensing techniques in Mars and Saturn missions. The technology has an additional benefit of requiring smaller equipment of lower mass \cite{Hemmati2}.
+
+Major challenges with optical communication technology persists, however. Whereas the beam width of a radio signal from deep space may have a diameter on the order of a hundred times the Earth's diameter, optical signals would have a beam width approximately one-tenth the Earth's diameter \cite{Hemmati2}. Additionally, small Sun-Earth-Probe (SEP) and Sun-Probe-Earth (SPE) angles as illustrated in Figure 5 can significantly saturate a signal \cite{Biswas}. Finally, weather on Earth can easily occlude an optical signal and a significant amount of research has been conducted to understand how weather attenuates a signal and how to properly predict the phenomenon \cite{Wojcik} \cite{Shaik} \cite{Hemmati3} \cite{Cowles} \cite{Cowles2} \cite{Cowles3} \cite{Shaik2}. A formation of spacecraft in Earth orbit and located at Lagrange points four and five can mitigate in the impact of the pointing, acquisition, and tracking problem on deep space satellites and can completely solve problems related to inclement Earth weather and small SEP and SPE angles.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.75]{SEPSPE.png}
+\caption{Sun-Earth-Probe and Sun-Probe-Earth Angles}
+\end{figure}
+
+\subsubsection{Mission Concept of Operations}
+An initial concept of such a formation flight system include approximately 24 satellites in Earth orbit. This formation will serve two purposes. First, it will loosen the pointing requirements of a deep space satellite. This is the case, because, instead of using a signal with a beam width on the order of a tenth the diameter of the Earth to point to a small number of ground stations as weather permits, the signal beam can instead transmit to one of the formation satellites. Second, the formation can redirect a signal to a ground station anywhere on the planet. Thus, the impact of weather on the optical deep space network is significantly alleviated. 
+
+The second component of the formation flight system, is a set of satellites located in Lagrange points four and five. These spacecraft will allow deep space satellites experiencing small SEP and SPE angles to redirect their signal to these satellites, which, in turn, redirects the signal to the Earth orbiting formation. Thus, the SEP and SPE angle no longer will limit the operability of such a system.
+
+\subsubsection{Possible Proof of Concept CubeSat Missions}
+There are several possible CubeSat missions which could act as a proof of concept mission for the proposed formation flight system. A formation of five 3U CubeSats could be placed in medium Earth orbit. These CubeSats could be equipped with optical communication equipment developed by JPL's Optical Communication Group. One of the CubeSats could be designated as a ``receiver." This receiver CubeSat would transmit optical signals to the ground or to other CubeSats. A distributed decision algorithm could then be used to direct the signal among the CubeSats to one of several ground stations.
+
+An alternative mission could possibly involve collaborating with current work conducted by JPL on the development of a technology demonstration deep space mission. As part of the deep space mission, the JPL satellite would attempt to transmit optical signals to a formation of 3U CubeSats, which would then transmit optical signals to the ground using a distributed decision algorithm which would direct the signal among the CubeSats. 
+
+A final possible mission would be to send one CubeSat to Lagrange point one, a second to Lagrange point four or five, and place a formation of five 3U CubeSats in Earth orbit. Such a mission would demonstrate how a formation flying deep space optical network would solve the small SEP and SPE angle problem discussed in previous literature.
+
+
+
+
+\subsection{Fixed Satellite Service in Maintenance and Repair Industry}
+\subsubsection{Summary}
+The commercial satellite industry is a large and relatively stable sector of the space industry providing services such as satellite television, radio, and broadband. These three applications alone are a \$93.3 billion industry \cite{SIA}. These satellites, meanwhile, are extremely costly for any corporation. A geosynchronous satellite such as the DirecTV-5, could very well cost in the neighborhood of \$300 million \cite{SMAD}. The product line proposed in this paper, reduces the risk involved with such a system by offering a service to satellite service companies to purchase an attitude control insurance package. Thus, in the event of a failure in a satellite's attitude control system, the service would fix that satellite's system to ensure continued operation. 
+ 
+\subsubsection{Motivation}
+To motivate the need for such a service for satellite operators, consider the satellite TV service company DirecTV. This company operates a fleet of satellites on missions greater than ten years. As of 2012, the company has insurance to cover the unamortized  book value of a satellite in the event of a premature loss. However, the insurance does not cover the loss of revenue due to the loss of a satellite. Assuming a ten year mission, with a \$300 million total mission cost and 17\% profit margin. The loss of a satellite would on average cost the company \$5.1 million in revenues every year \cite{DirecTV}. Thus, the current proposal acts as an improvement on current insurance practices by not only insuring against the unamortized book value of a satellite, but also preventing the lost revenue the company would experience. 
+
+\subsubsection{Concept of Operations}
+The improved satellite service solution would require a formation flight of many spacecraft. There would exist two kinds of spacecraft: a 1U satellite whose volume is dominated by a reaction wheel, torque rod, or control moment gyroscope (it will be assumed a reaction wheel is the chosen method of actuation) and a 2U satellite controller. The cubesat standard is used to capitalize on cost advantages. The 1U satellite will be passively stabilized to eliminate the need for any use of volume beyond a reaction wheel. The 2U satellite will contain all computing, thrusting, and other capabilities of a standard spacecraft. When a  customer's satellite fails, the insurer would compute an optimal configuration by which attitude control could be regained. The passively controlled or position controlled formation would then reform into an attitude control solution and it would dock with the damaged spacecraft, which would then be repaired.
+
+Technical challenges of such a project include optimal control of the formation, the customization of a solution for a broken spacecraft, and how the 2U satellite forms a solution for the broken spacecraft. Docking with the broken spacecraft and the subsequent control of the customer's spacecraft can also be a challenge.
+
+To prove the cost model of this concept, consider DirecTV again. A \$300 million satellite on a ten year mission has an 18\% probability of experiencing failure due to the attitude control system. While failure is not equally likely throughout the ten years, failure before the end of year five is 11\% \cite{SMAD}. Thus, such a service would be worth upwards of \$27 million per satellite. Assuming a cost of \$150,000 per 1U satellite, a cost of \$300,000 per 2U satellite (each with a mass of 1 kg), and a launch cost of \$3,409 per kilogram (on a Dnepr-1 rocket), launching a 100 kg formation would cost under \$16 million. Assuming 25\% of the formation is used by one satellite on average and the service charges \$16 million for a 10 year policy, the company would make an average \$1.2 million dollars a year per satellite. Now consider if the insurer contracted with DirecTV (12 satellites), EchoStar (22 satellites), SES S.A. (53 satellites), and INTELSAT (59 satellites). Such contracts would require 3650 satellites to be produced and an average yearly profit of \$175.2 million could be anticipated. 
+
+\subsubsection{Proof of Concept CubeSat Mission}
+For an initial proof of concept, a mission involving 5 CubSats is proposed. The first CubeSat is a 3U satellite such as ExoplanetSat shown in Figure 6. This 3U CubeSat will experience an attitude control failure during the mission. A 2U satellite will then create a solution from three 1U CubeSats. This solution will dock with the 3U CubeSat and provide attitude control. Additionally, inflatable structures could be placed on the 3U CubeSat so that its size is closer to a potential customer satellite.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{ExoPlanetSat.jpg}
+\caption{ExoPlanetSat \cite{MIT}}
+\end{figure}
+
+
+
+
 \subsection{3D Printing Replacement Parts For Dying Satellites}
 
-When satellites start to degrade or suffer from micrometeoriod impacts, replacement parts can revitalize a satellite that would otherwise need to be deorbited. Launching replacement parts can be expensive, in some cases more expensive than launching a new satellite. 3D printing new pieces for eligible satellites would reduce the upkeep costs of satellite constellations and potentially reduce the orbital debris.  \\
+When satellites start to degrade or suffer from micrometeoriod impacts, replacement parts can revitalize a satellite that would otherwise need to be deorbited. Launching replacement parts can be expensive, in some cases more expensive than launching a new satellite. 3D printing new pieces for eligible satellites would reduce the upkeep costs of satellite constellations and potentially reduce the orbital debris.  
 
 3D printing technology for space (by Made In Space) is slated to be tested in orbit in 2014 and has already succeeded in parabolic flight tests. Limitations may exist as to size and placement of replacement part on the satellite, so it may be necessary to study a set of satellites with common buses, like TDRSS or GPS to assess what parts are possible to replace. 
 
 The satellite formation would have one or more satellites dedicated to printing and other satellites dedicated to removing and replacing the part on the broken satellite. The 3D printing could occur while the satellites travel to the orbit of the broken satellite. Formation flying would be necessary during the hand-off of the part and possibly also during the printing itself depending on the requirements of the printer. 
 
 \subsection{Tracking Gamma Ray Bursts (GRBs)}
-A formation could be used to source GRBs through precise triangulation. With accurate measurements of inter-satellite distance and GRB incident time, the satellites could potentially increase the accuracy of GRB detection and positioning. \cite{Ref:Dill}. This has since been proven unnecessary, because current satellites use gamma ray detectors and UV detectors together, with the UV detectors calculating the positioning. A formation of gamma ray detectors can still be useful to verify the measurements of current satellites like NASA's Fermi, or possibly to address gaps in coverage. 
+A formation could be used to source GRBs through precise triangulation. With accurate measurements of inter-satellite distance and GRB incident time, the satellites could potentially increase the accuracy of GRB detection and positioning. \cite{Ref:Dill}. This mission has since been proven unnecessary, because current satellites use gamma ray detectors and UV detectors together, with the UV detectors calculating the positioning. A formation of gamma ray detectors can still be useful to verify the measurements of current satellites like NASA's Fermi, or possibly to address gaps in coverage. 
 
 The gamma ray detector formation could also look for gamma rays emitted by thunderstorms. Fermi has observed the phenomenon, but it could possibly do with more study, to help Fermi differentiate between the real gamma ray signals and the thunderstorm generated gamma rays.\cite{Ref:Fermi} \cite{Ref:Kitts}
 
@@ -61,7 +124,7 @@ much more accurately than the current process.
 
 \subsection{Test Inflatable De-Orbit Device }
 
-The formation of satellites could be used to test an inflatable, such
+A formation of satellites could be used to test an inflatable, such
 as a de-orbiting device. Some of the satellites would not have inflatables
 to determine the difference between the satellites with de-orbiter
 and those without. The formation would not only test the inflatable
@@ -90,8 +153,8 @@ to study the solar corona:
 \item Large Angle and Spectrometric Coronagraph (\href{http://lasco-www.nrl.navy.mil/}{LASCO})
 has become one of the most relevant instruments in SOHO. It consists
 of three different coronographs that focus their attention on a different
-area around the solar corona. After all, the data and images collected
-from this three coronographs in three different nested regions around
+area around the solar corona. Finally, the data and images collected
+from these three coronographs in three different nested regions around
 the Sun is blended to create a single image and data collection. In
 the following table there are several characteristics of these coronographs:
 
@@ -134,7 +197,7 @@ first stereoscopic views of CMEs and other solar measurements.
 \end{enumerate}
 The coronagraphs implemented in these missions have two main limitations.
 The first is that for a fixed distance between the occulter and the
-imaging sensor, the instrument is only capable to provide images of
+imaging sensor, the instrument is only capable of providing images of
 a finite region above the Sun's limb. Furthermore, if the instrument
 is focused on the study of the closest layers above the Sun's limb,
 the majority of the imaging element is shadowed by the occulting disk.
@@ -146,44 +209,33 @@ of CMEs, whereas STEREO does provide stereoscopic images, as it consists
 of two different spacecrafts, but only focuses on a certain region
 of the Sun's corona.
 
-\textcolor{black}{Formation Flying Satellites could mean a great leap
+\textcolor{black}{Formation flying satellites could mean a great leap
 in the study of the solar corona and CMEs. A range-variable stereoscopic
-coronagraph could be implemented with 4 Formation Flying Satellites.
+coronagraph could be implemented with 4 formation flying satellites.
 Separating the occulter disk and the imaging element in two different
-spacecrafts will allow heliophysicist to focus their instrument on
+spacecrafts will allow heliophysicists to focus their instrument on
 the desired area and even follow CMEs as they expand into space just
-by varying the distance between the spacecrafts containing the occulter
+by varying the distance between the spacecraft containing the occulter
 and the imaging element. Moreover, adding a pair of occulter and imaging
-spacecrafts the mission will be able to provide stereoscopic images
-of CMEs. As we keep adding more spacecraft to the formation the mission
-can either improve the stereoscopic data or enhance the field of view.
-The following picture is a concept of the mission:}
+spacecraft the mission will be able to provide stereoscopic images
+of CMEs. As we keep adding more spacecraft to the formation, the mission
+can either improve the stereoscopic data or enhance the field of view.}
 
-\begin{figure}[!ht]
-\begin{centering}
-\includegraphics[scale=0.8]{jpl_logo.jpg}\caption{Range-variable stereoscopic coronagraph}
-\par\end{centering}
-\end{figure}
+\scalefig{Formation_Flying_Coronagraphs.jpg}{0.5}{Range-variable stereoscopic coronagraph}
+\newpage
 
 \textcolor{black}{To estimate the attitude requirements of this kind
-of mission the following restrictions have been imposed. The occulter
+of mission, the following restrictions have been imposed. The occulter
 has to maintain a position in which the imaging sensor is never exposed
-to Sun's direct radiation. Therefore the occulter shadows a circle
-equivalent to$1.05R_{sun}\text{\textpm}0.025R_{sun}$. To do so we
-propose a simplified system of 2 Formation Flying Satellites with
-3 DOF ($d,\theta,\delta)$ represented in the following picture:}
+to Sun's direct radiation. Therefore, the occulter shadows a circle
+equivalent to$1.05R_{sun}\text{\textpm}0.025R_{sun}$. To do so, we
+propose a simplified system of 2 formation flying satellites with
+3 DOF ($d,\theta,\delta)$ represented in Figure 8}
 
 
-\begin{figure}[!ht]
-\begin{centering}
-\includegraphics[scale=0.75]{jpl_logo.jpg}\caption{DOF for two Formation Flying Satellite Coronagraph}
-\end{centering}
-\end{figure}
+\scalefig{FF_Coronograph_DOF.jpg}{1}{DOF for two Formation Flying Satellite Coronagraph}
 
-
-\textcolor{black}{In the following table there is an estimation of
-the attitude requirements for two Flight Formation CubeSats, assuming
-$\theta=1\text{º}$:}
+\textcolor{black}{The following table contains an estimation of the attitude requirements for a formation of two CubeSats, assuming $\theta=1\text{º}$:}
 
 \begin{table}[H]
 \centering{}%
@@ -220,7 +272,7 @@ $\delta$(m) & $\Delta\delta$(\%) & \multicolumn{9}{c|}{$\Delta\theta$(º)}\tabul
 \end{table}
 
 
-Finally, the mission requirements obtained are achievable with current
+In summary, the mission requirements obtained are achievable with current
 sensors and actuators available on the market. The proposed mission
 is feasible and could lead to a great improvement in the flexibility
 and data collection of heliophysics missions.
@@ -229,25 +281,25 @@ and data collection of heliophysics missions.
 \subsection{CubeSat landing swarm to track and model asteroid belts}
 
 An example of the current interest in the asteroid belt among the
-scientific community is NASA mission \href{http://dawn.jpl.nasa.gov/mission/journal.asp}{Dawn}.
+scientific community is the NASA's \href{http://dawn.jpl.nasa.gov/mission/journal.asp}{Dawn} mission.
 This mission has already placed a spacecraft orbiting around the gigantic
 asteroid Vesta and now heading towards Ceres, where it is expected
-to unveil some of the secrets of this body. Ceres is thought to be
-an icy dwarf planet capable to give a reasonable explanation about
+to unveil some of the interesting aspects of this body. Ceres is thought to be
+an icy dwarf planet capable of providing a reasonable explanation about
 the origin of water in Mars and Earth. Therefore, Ceres and some of
 the asteroids in this belt are quite interesting from an astrobiological
 point of view as they contain ice water. In addition, some asteroids
-have important amounts of metals and carbon compounds. Scientist believe
+have considerable amounts of metals and carbon compounds. Scientists believe
 that this region holds some important clues about the origin and evolution
 of the Solar System. Nevertheless the only outstanding mission to
-the asteroid belt indicates that there is still much work to answer
+the asteroid belt indicates that there is still much work to be done to answer
 all the questions scientist ask now. For that reason, a swarm of CubeSats
 is a promising way to continue the exploration of the asteroid belt
 in an efficient and flexible way.
 
-A swarm of CubeSats capable to land on several asteroids has many
-profitable applications although initially Flight Formation will not
-be needed the mission could be notably improved with the aided help
+A swarm of CubeSats capable of landing on several asteroids has many
+profitable applications although initially flight formation will not
+be needed, the mission could be notably improved with the aided help
 of cooperating spacecrafts:
 \begin{enumerate}
 \item In an initial approach the CubeSats could provide accurate imaging
@@ -258,9 +310,9 @@ and origin.
 to easily track smaller asteroids, improve the computational models
 of the asteroid belt and precisely estimate collisions or orbital
 variations of different asteroids.
-\item This small satellites could be used to improve communications with
+\item These small satellites could be used to improve communications with
 more distant spacecraft and even create a network all around the asteroid
-belt. This will allow easy communications with spacecrafts even though
+belt. This will allow easy communications with spacecraft even though
 the Sun is in the way between the Earth and the spacecraft and therefore
 blocks the incoming and outgoing signals.
 \item There has been much speculation about the industrialization of the
@@ -272,48 +324,47 @@ and consequently to the asteroid belt industrialization.
 
 \subsection{Sun Energy Collector}
 
-Harvesting energy has been and still being one of the critical aspects
+Harvesting energy has been and is still one of the critical aspects
 of a space mission. Some examples of this problem are: 
 \begin{enumerate}
 \item The Mars Rover Opportunity, unable to perform its experiments on the
 slopes of mountains and sand dunes where the sun does not shine during
 the day. Hence, the mars rover has experienced important limitations
 in its operations due to energy restrictions.
-\item Spacecrafts traveling to the outer Solar System or even out of the
+\item Spacecraft traveling to the outer Solar System or even out of the
 Solar System require important amounts of energy for their propulsion
-systems in order to gain the needed velocity. Furthermore, the moons
-of Jupiter and Saturn, Europa and Enceladus respectively, are thought
-to hide liquid water beneath their frozen surfaces and therefore have
+systems in order to gain the needed velocity. Furthermore, the moons Europa and Enceladus, are thought
+to hide liquid water beneath their frozen surfaces and, therefore, have
 been classified as high priority for NASA and ESA. Consequently, there
 is an obvious need for cheaper sources of energy for interplanetary
 missions.
 \item Satellites charge their batteries while exposed to the Sun's radiation.
-Then, when they enter the night-side of a planet for a long period
-of time, sometimes are forced to perform their science with low-power
+Then, when entering the night-side of a planet for a long period
+of time, satellites are sometimes forced to perform their science with low-power
 modes in order to save energy.
 \end{enumerate}
-A group of Formation Flying Satellites with deployable mirrors could
+A group of formation flying satellites with deployable mirrors could
 be the solution for this scarcity of energy. The Sun is a constant
-and powerful source of energy in space. Accordingly, spacecrafts and
+and powerful source of energy in space. Accordingly, spacecraft and
 ground systems could benefit more from the Sun's energy than they
 are doing now. An orientable array of mirrors could be implemented
-in several spacecrafts to provide energy to a wide range of missions:
+in several spacecraft to provide energy to a wide range of missions:
 \begin{enumerate}
 \item Satellites in desperate need of energy could be rescued from thousands
-of kilometers away just by re-orienting the Formation Flying Spacecrafts.
+of kilometers away just by re-orienting the formation flying spacecraft.
 Or even better, critical satellites could be able to perform all their
 experiments during long periods in the dark side of a planet. 
-\item Vehicles and rovers in other planets or moons will have the ability
+\item Vehicles and rovers on other planets or moons will have the ability
 to continue their research during the night and after long periods
-in shaded areas. For this, placing a group of Formation Flying Satellites
-in orbit around the corresponding planet or moon will enable to point
+in shaded areas. For this, placing a group of formation flying satellites
+in orbit around the corresponding planet or moon will enable pointing
 a beam of light to those vehicles that require energy.
 \item A beam of photons could be carefully pointed toward a solar sail to
 increase solar pressure and help the classical propulsion systems
-take the spacecraft to the outer solar system. By this means, space
+take the spacecraft to the outer Solar System. By this means, space
 agencies would be able to save millions of dollars in putting large
 quantities of combustible into space.
-\item A group of Formation Flying Satellites could be used as a test-bed
+\item A group of formation flying satellites could be used as a test-bed
 to determine how light can be used to deviate a small asteroid from
 its trajectory.
 \end{enumerate}
