@@ -29,9 +29,8 @@ The information in the above table has been taken from the \href{http://www.anal
 
       {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
 
-     Aerocube-4 GPS \cite{Gangestad} & NA & NA &  {$ \pm 20 $} & GPS receiver & NA & Orbit determination once per day or as power system permits \\ \hline
-
-     Nano Star Tracker on Chip (STC) \cite{Prokhorov} & 65 g & 73.5x 57.0x 57.8 mm & 10''- 50'' & Star Tracker & NA & 19.5 deg field of view, update rate 10 Hz, mean power (without Peltier cooler 250mW), peak power 1 W \\ \hline
+     Aerocube-4 GPS \cite{Gangestad} & NA & NA &  {$ \pm 20 m $} & GPS receiver & NA & Orbit determination once per day or as power system permits \\ \hline
+   
      \end{tabular}
      \captionof{table}{Available position estimation sensors}
 \end{center}
@@ -42,7 +41,7 @@ Some attitude estimation sensors and actuators were obtained from the small sate
 \scalefig{attitude_control.png}{1}{Current attitude control sensors and actuators (source: \href{http://kiss.caltech.edu/workshops/smallsat2012b/presentations/bennett.pdf}{Presentation by Matt Bennett})}
 
 \begin{center}
-     \begin{tabular}{ | p{2.25cm} | p{1.25cm} | p{2cm} | p{4cm} | l | l | p{1.75cm} |}
+     \begin{tabular}{ | p{2.25cm} | p{1.25cm} | p{2cm} | p{2cm} | l | l | p{3.75cm} |}
      \hline
 
       {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
@@ -69,7 +68,8 @@ Some attitude estimation sensors and actuators were obtained from the small sate
 	Magnetometer \cite{CubeShop} & 15 g sensor, 150 g electronics & Sensor: 10 x 10 x 5 mm, Electronics: 90 x 30 x 11 mm & Sensitivity: 10 nT & Magnetometer & 9 & \\ \hline
 	
 	CubeSat Sun Sensor \cite{CubeShop} & < 5 g & 33 x 11 x 6 mm & < 0.5 deg & Sun Sensor & 7 & \\ \hline
-
+	
+ 	  \hline
      \end{tabular}
      \captionof{table}{Available attitude estimation sensors}
 \end{center}
@@ -84,7 +84,7 @@ Some attitude estimation sensors and actuators were obtained from the small sate
 
       {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
 
-     Nexus S \cite{Ref:ids2} & 129g & 123.9 x 63 x 11 & 1.53 m , 3 deg @30 m & Vision & NA  &   \\ \hline
+     Nexus S \cite{Ref:ids2} & 129g & 123.9 x 63 x 11 mm & 1.53 m , 3 deg @30 m & Vision & NA  &   \\ \hline
 
      IBIS4-1300 \cite{Ref:ids1} & NA & NA & < 100 arc-s & Vision & NA & Vision based Star Tracker and Topology (for formation flying). Does not talk about satellite detection methods \\ \hline
      \end{tabular}
@@ -141,9 +141,9 @@ MAI-200 ADACS \cite{CubeShop} & 907 g & 100 x 100 x 78.75 mm & NA & Integrated A
 
       {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Accuracy} & {\bf Type} & {\bf TRL} & {\bf Comment}  \\ \hline
       
-       Clyde Z-Axis Magnetorquer & 50 g & 100 x 100 x 4.3 mm & NA & Torquer & NA & magnetic moment of 0.19Am2 \\ \hline
+       Clyde Z-Axis Magnetorquer & 50 g & 100 x 100 x 4.3 mm & NA & Torquer & NA & magnetic moment of 0.19Am$^2$ \\ \hline
        
-	   SSBV magnetorquer rod & <30 g & L7 x D9 & NA & Torquer & NA & Magnetic moment: >0.2Am2 \\ \hline
+	   SSBV magnetorquer rod & <30 g & Length 7cm x Diameter 9mm & NA & Torquer & NA & Magnetic moment: >0.2Am$^2$ \\ \hline
 	   
 	   CubeSat Magnetorquer Rod \cite{CubeShop} & 30 g & Length 7 cm, Diameter < 9 mm & NA & Torquer & NA & Magnetic moment: 0.2 $Am^2$ \\ \hline
 	   
@@ -193,9 +193,9 @@ Figure 11 gives information on the thrusters, which was obtained from the small 
 
        {\bf Name} & {\bf Mass} & {\bf Size} & {\bf Isp} & {\bf $\delta V$} & {\bf Thrust} & {\bf Comment}  \\ \hline
 
-     Ion electrospray \cite{Ref:thr9} & & 1/3 U & 2500 & 200m/s & 0.1 mN&  \\ \hline
-     {$\mu$}VAT&150g& 40x 40x 40mm & 1000&   & 5.4{$\mu$}N & Turn 90 degrees in 10 minutes.\\ \hline
-     YUsend-1 SPT \cite{Ref:thr10} &94 g &   &   &   & 0.15 mN & \\ \hline
+     Ion electrospray \cite{Ref:thr9} & NA & 1/3 U & 2500 & 200m/s & 0.1 mN&  \\ \hline
+     {$\mu$}VAT&150g& 40x 40x 40mm & 1000&  NA & 5.4{$\mu$}N & Turn 90 degrees in 10 minutes.\\ \hline
+     YUsend-1 SPT \cite{Ref:thr10} &94 g & NA & NA   & NA & 0.15 mN & \\ \hline
      \end{tabular}
      \captionof{table}{Thrusters not yet available off the shelf}
 \end{center}

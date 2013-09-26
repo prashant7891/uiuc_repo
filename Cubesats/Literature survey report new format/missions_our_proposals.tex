@@ -1,6 +1,7 @@
 \section{Our Mission Proposals}
 
 \subsection{Division of Labor in Satellite}
+\label{labour}
 Every year we throw away satellites because they become worn out. But usually it's only one of the component that causes the problem. The other components work fine but is needlessly thrown away. This makes satellites as one of the major contributors to the build up of space debris. DARPA's Pheonix satellite re-servicing mission addresses these issues and tries to utilize functioning part of the satellites. But instead of trying clean up what has already happened (like  re-using parts of defunct satellites), we propose a mission to reduce problems in the future. The idea is to apply division of labor. Instead of a one big satellite containing all the components, smaller satellites carrying one or two parts could fly in a constellation to represent a system as a whole. Some benefits are listed below: \\
 
 {\bf Expandable:} If more computing power is needed, a CubeSat carrying another CPU could join the constellation. \\
@@ -13,12 +14,15 @@ If there is free space in terms of data transfer or processing power, same or di
 {\bf Green:} Creates less space waste.
 
 \subsection{Satellite Advertising}
+\label{ad}
 If CubeSats could carry reflective surface or an LED to make itself visible from earth, tightly controlled formation flying CubeSats could spell out a word or even form a display screen in great numbers. Indeed, it would be most likely only visible with the help of a telescope but just the existence of space ad would have great impact on the media. Along with star viewing, it would become "the thing" to look at. Depending on visible areas at that time, different advertisements could be displayed.
 
 \subsection{Orbiting Marker in Space}
+\label{marker}
 Controlled formation flying satellites could serve as a marker for vision based navigations. Multiple orbiting markers on some other planet could allow better pose estimation than existing star trackers.
 
 \subsection{Graveyard Orbit Transfer Service Formation Flying Proposal}
+\label{grave}
 \subsubsection{Summary}
 At the end of a satellite's service life, a satellite standard exists for the disposal of a spacecraft. For a geosynchronous spacecraft, it is typical to deposit the satellite in an orbit with a perigee altitude above 36,100 km \cite{standard}. This orbit is chosen due to the small $\Delta V$ required to move a spacecraft into the orbit (approximately 7.4 meters per second) and the tendency for the spacecraft to not return to an orbit used by operating spacecraft \cite {SMAD}. Recently however, only about one-third of GEO satellite that have reached the end of their life time have successfully achieved a so called ``graveyard orbit'' \cite{ESA}. The proposed formation flying spacecraft system seeks to increase the percent of spacecraft that successfully maneuver to a ``graveyard orbit'' in a cost effective manner. 
 
@@ -30,6 +34,7 @@ As a proof of concept, a 6U CubeSat could be launched along with three 1U CubeSa
 
 
 \subsection{Optical Communication Mission}
+\label{op_comm}
 \subsubsection{Summary}
 In the late 1970s, work began on an optical communications technology that could provide orders of magnitude more data transferred from deep space missions than was possible with conventional radio frequency techniques \cite{Hemmati}. Major challenges for such a deep space system include the acquisition, tracking, and pointing for sub-micro-radian accuracy, the use of efficient lasers with moderate power and high modulation rates, and the use of fine-pointing mirrors \cite{FlightRD}. The atmosphere of Earth, additionally, acts as a major obstacle for an optical communications system. Even on a clear day, the atmosphere can significantly attenuate an optical signal. Thus, an optical deep space network will require many more ground stations than the current deep space network. A recent study by Northrop Grumman concluded that even if six ground sites (double the size of the current deep space network) were selected, the array would only be operable 83\% of the time \cite{Wojcik}. Leveraging a formation satellite system in a deep space optical communications network can realistically solve several open problems in optical communication literature and could alleviate major pointing constraints that would be placed on future spacecraft missions if the optical deep space network were constructed.
 
@@ -67,6 +72,7 @@ A final possible mission would be to send one CubeSat to Lagrange point one, a s
 
 
 \subsection{Fixed Satellite Service in Maintenance and Repair Industry}
+\label{mro}
 \subsubsection{Summary}
 The commercial satellite industry is a large and relatively stable sector of the space industry providing services such as satellite television, radio, and broadband. These three applications alone are a \$93.3 billion industry \cite{SIA}. These satellites, meanwhile, are extremely costly for any corporation. A geosynchronous satellite such as the DirecTV-5, could very well cost in the neighborhood of \$300 million \cite{SMAD}. The product line proposed in this paper, reduces the risk involved with such a system by offering a service to satellite service companies to purchase an attitude control insurance package. Thus, in the event of a failure in a satellite's attitude control system, the service would fix that satellite's system to ensure continued operation. 
  
@@ -90,9 +96,8 @@ For an initial proof of concept, a mission involving 5 CubSats is proposed. The 
 \end{figure}
 
 
-
-
 \subsection{3D Printing Replacement Parts For Dying Satellites}
+\label{3d}
 
 When satellites start to degrade or suffer from micrometeoriod impacts, replacement parts can revitalize a satellite that would otherwise need to be deorbited. Launching replacement parts can be expensive, in some cases more expensive than launching a new satellite. 3D printing new pieces for eligible satellites would reduce the upkeep costs of satellite constellations and potentially reduce the orbital debris.  
 
@@ -101,11 +106,13 @@ When satellites start to degrade or suffer from micrometeoriod impacts, replacem
 The satellite formation would have one or more satellites dedicated to printing and other satellites dedicated to removing and replacing the part on the broken satellite. The 3D printing could occur while the satellites travel to the orbit of the broken satellite. Formation flying would be necessary during the hand-off of the part and possibly also during the printing itself depending on the requirements of the printer. 
 
 \subsection{Tracking Gamma Ray Bursts (GRBs)}
+\label{grb}
 A formation could be used to source GRBs through precise triangulation. With accurate measurements of inter-satellite distance and GRB incident time, the satellites could potentially increase the accuracy of GRB detection and positioning. \cite{Ref:Dill}. This mission has since been proven unnecessary, because current satellites use gamma ray detectors and UV detectors together, with the UV detectors calculating the positioning. A formation of gamma ray detectors can still be useful to verify the measurements of current satellites like NASA's Fermi, or possibly to address gaps in coverage. 
 
 The gamma ray detector formation could also look for gamma rays emitted by thunderstorms. Fermi has observed the phenomenon, but it could possibly do with more study, to help Fermi differentiate between the real gamma ray signals and the thunderstorm generated gamma rays.\cite{Ref:Fermi} \cite{Ref:Kitts}
 
 \subsection{Tomography of the Ionosphere/Auroras}
+\label{tomography}
 
 Depletion in ionospheric plasma can disrupt signal transferrance,
 and not much is known about the depletion zones. The formation would
@@ -122,7 +129,8 @@ formation would allow the scientists to verify their models in 3 dimensions,
 much more accurately than the current process. 
 
 
-\subsection{Test Inflatable De-Orbit Device }
+\subsection{Inflatable De-Orbit Device}
+\label{inflatable}
 
 A formation of satellites could be used to test an inflatable, such
 as a de-orbiting device. Some of the satellites would not have inflatables
@@ -131,7 +139,7 @@ and those without. The formation would not only test the inflatable
 deployment, but also the efficacy against standard orbit degradation. 
 
 \subsection{Variable-Range Solar Coronography}
-
+\label{coronograph}
 Coronal mass ejections (CMEs) are a common phenomena in our Sun and
 they can have a significant impact in our daily life. CMEs release
 enormous amounts of plasma and energy into space inducing violent
@@ -279,7 +287,7 @@ and data collection of heliophysics missions.
 
 
 \subsection{CubeSat landing swarm to track and model asteroid belts}
-
+\label{ast_belt}
 An example of the current interest in the asteroid belt among the
 scientific community is the NASA's \href{http://dawn.jpl.nasa.gov/mission/journal.asp}{Dawn} mission.
 This mission has already placed a spacecraft orbiting around the gigantic
@@ -323,7 +331,7 @@ and consequently to the asteroid belt industrialization.
 \end{enumerate}
 
 \subsection{Sun Energy Collector}
-
+\label{energy_collector}
 Harvesting energy has been and is still one of the critical aspects
 of a space mission. Some examples of this problem are: 
 \begin{enumerate}
@@ -368,3 +376,35 @@ quantities of combustible into space.
 to determine how light can be used to deviate a small asteroid from
 its trajectory.
 \end{enumerate}
+
+
+\subsection{Space Wake studies}
+\label{space_wake}
+The vacuum that has been generated by the best vacuum generators on ground have gone only
+go upto a particular level of purity. However, we can use the naturally available vacuum in
+space. The problem is that the vacuum available in LEO is not very pure. High purity vacuum
+can be obtained in higher orbits, but it is not feasible to reach those with CubeSats. This idea
+is that we can have a CubeSat with an inflatable disk-like structure, orbit around the earth in
+LEO. Studies show that this produces very highly pure vacuum in it's wake. We can have the
+other CubeSats follow in this wake to conduct any required experiments. Possible applications
+are: Understanding atmospheric density distribution, understanding wake patterns of satellites,
+producing highly pure materials etc. Formation flying is useful for this mission, it can be
+performed in LEO and 4-5 CubeSats might be ideal for it (depending on the application). A
+representational image has been shown in Figure 9. 
+\scalefig{space_wake.png}{0.9}{Space wake studies concept}
+
+The first or leader CubeSat in the above figure is denoted by 1. The oval denoted by 2 in
+the figure is the inflatable structure. The earth is shown below and the direction of motion is
+also indicated. CubeSats 3, 4 and 5 will follow in approximately that formation. The white line
+extending from the end of the inflatable structure is just a representation of the wake created
+(Note: This may not be how the wake actually looks). Each of the CubeSats will have a sensor
+in front of it which can measure the drag felt by it (I am not yet sure what this sensor would
+be). CubeSat 3 and 4 would feel less drag as they are in the immediate wake of the leader.
+CubeSat 5 would feel much more than 3 and 4 as it is farther away. Thus using the differential
+drag measurements of the leader and CubeSats 3 and 4, a density model of the atmosphere can
+be generated. A study on the how much drag is felt by CubeSat 5 while varying the distance between the leader and CubeSat 5 can also be done. We can also have additional CubeSats along the z axis using which we can measure the 3D variations.
+
+\subsection{Open source CubeSat Testbed}
+\label{testbed}
+We can have a mission in which we launch a set of 4-5 CubeSats in LEO flying in a basic formation. The architecture of these CubeSats will be open to the public so that anyone can write code for it. The limitations and the capabilities of the CubeSats will be clearly listed and everyone would have to follow it. They can send us the code and we can then upload it to the CubeSats which will perform them in real time. This is like a tested for CubeSat algorithms. A lot of people now would have algorithms that they would like to test, but might not have access to satellites. This is again ideal for us as it's in LEO, 4-5 CubeSats will be sufficient and formation  flying is essential. The second advantage of this is the additional source of funding which can be charged for people to test their code on our testbed. The third advantage is that it will just be a technology demonstration from our end without having to worry much about the physics or science behind the missions, thus allowing us to define the requirements. The problem is that, the lifetime of the testbed would be low as of now ( 1-2 months). However, it is a reasonable assumption that this would increase as new technologies are developed.
+
