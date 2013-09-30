@@ -1,0 +1,65 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[pdfborder={0 0 0},colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\begin{document}
+\begin{center}
+{\Huge Feasibility Analysis: Lego satellites}
+\end{center}
+
+I have listed below the best of the sensors and actuators that are available in the market. These have been taken from our literature survey report. Since this is a technology demonstration, we can choose our design parameters as long as they satisfy the achievable limit.   
+
+\begin{itemize}
+\item GPS
+\begin{itemize}
+\item Present accuracy: $\pm$ 20m 
+\end{itemize}
+
+\item Star tracker
+\begin{itemize}
+\item Advantages
+\begin{itemize}
+\item Only 1 needed, hence reducing complexity and error build-up (\href{http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1238&context=smallsat}{this itself can be a tech demo of sorts})
+\item Always functional, no interference with albedo and such
+\item 5 Hz update rate
+\item 0.5 U size, 7-24 arc-second accuracy
+\item Can also be used to measure angular rates, by using star smeared in the image and calculating it's radius of curvature, and thus removing need of gyro
+\end{itemize}
+\item Disadvantages
+\begin{itemize}
+\item Gets disturbed by stray light. More than 1 might be needed in this case
+\item Problematic during detumbling 
+\end{itemize}
+\end{itemize}
+
+%\item Sun sensor 
+%\begin{itemize}
+%\item More than 1 needed
+%\item Accuracy less than star-tracker
+%\end{itemize}
+
+\item Active control dataset packages 
+\begin{itemize}
+\item 0.003$^o$ pointing accuracy, 0.5W power consumption, 0.5U size 
+\item Sensors and actuators included
+\begin{itemize}
+\item Magnetometer
+\item IMU
+\item Sun sensor
+\item 3 reaction wheels 
+\item 3 torque rods
+\end{itemize}
+\end{itemize}
+
+\item Other instruments that might be needed
+\begin{itemize}
+\item Normal Cameras
+\item Infrared Cameras
+\item Lights/Bulbs - In case we are going to do advertisements, or vision based inter-satellite distance measurement. 
+\end{itemize}
+\end{itemize}
+\end{document}
